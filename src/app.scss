@@ -1,7 +1,29 @@
-a {
-    color:blue;
 
-    &:hover {
-        color:red;
+
+.center {
+    text-align: center;
+  }
+  
+  header {
+    &.center {
+      text-align: center;
     }
-}
+  
+    h2 {
+      font-size: 2em;
+      color: #3498db; 
+    }
+  
+    p {
+      font-size: 1.2em;
+      color: #2ecc71; 
+    }
+  
+    div {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #ecf0f1; 
+      border: 1px solid #bdc3c7; 
+    }
+  }
+  
