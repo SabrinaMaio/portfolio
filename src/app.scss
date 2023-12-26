@@ -2,6 +2,14 @@
 
 .center {
     text-align: center;
+    background-image: url('./assets/iIMG_4374.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    padding: 50px; 
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: contain;
   }
   
   header {
@@ -9,21 +17,24 @@
       text-align: center;
     }
   
-    h2 {
-      font-size: 2em;
+    .titre {
       color: #3498db; 
+      font-size: 3rem;
+      letter-spacing: 1px;
+      perspective: 800px; 
+      text-shadow: 2px 2px 4px rgba(39, 39, 39, 0.5); 
     }
   
-    p {
-      font-size: 1.2em;
+    .presentation {
+      font-size: 1.4em;
       color: #2ecc71; 
     }
   
     div {
-      margin-top: 20px;
+      margin-top: 180px;
       padding: 10px;
-      background-color: #ecf0f1; 
+      background-color: #96cfdd; 
       border: 1px solid #bdc3c7; 
-    }
+        }
   }
   

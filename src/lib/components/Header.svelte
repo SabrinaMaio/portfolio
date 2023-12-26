@@ -15,29 +15,27 @@
 
 
 <style lang="scss">
-    h2 {
-      color: orange;
-    }
-  
-    header {
-      color: black;
-  
-      nav {
-        ul {
-          list-style: none;
-          display: flex; /* Aligne les éléments horizontalement */
-          padding: 0;
-        }
-  
-        li {
-          background: lightgray;
-          margin-right: 10px; /* Ajoute une marge entre les éléments */
-        }
-  
-        a {
-          text-decoration: none;
-          color: inherit;
-        }
+  header {
+    color: black;
+
+    nav {
+      ul {
+        list-style: none;
+        display: flex; 
+        justify-content: flex-end; 
+        padding: 0;
+        font-size: 1.4rem;
+      }
+
+      li {
+        
+        margin-left: 10px; 
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
       }
     }
-  </style>
+  }
+</style>
